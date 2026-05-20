@@ -1,8 +1,7 @@
 # Maersk Supply Chain Optimization
 
-> Analyzing supply chain operations through data-driven insights and 
-> interactive dashboards to improve inventory management, shipping 
-> efficiency, and customer demand fulfillment.
+> Identifying $86K in storage cost drivers and 
+> 98% late shipment risk using PostgreSQL + Power BI
 ---
 
 ## Overview
