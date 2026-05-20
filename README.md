@@ -28,8 +28,6 @@ The project aims to:
 
 ---
 
-## Methodology
-
 ### 1. Data Preprocessing
 - Removed irrelevant columns and corrected data types
 - Resolved inconsistencies across order, shipment, and inventory tables
@@ -41,7 +39,7 @@ The project aims to:
 - Customer demographics and purchasing behavior patterns
 - Product profitability and inventory turnover analysis
 
-### 3. Inventory Segmentation — ABC XYZ Analysis
+### 3. Inventory Segmentation: ABC XYZ Analysis
 Categorized all SKUs based on revenue contribution (ABC) and 
 demand stability (XYZ) to prioritize inventory management decisions.
 
@@ -55,29 +53,33 @@ demand stability (XYZ) to prioritize inventory management decisions.
 
 ## Key Insights & Recommendations
 
-- **Transportation redesign** — Rerouting high-delay corridors 
+- **Transportation redesign**: Rerouting high-delay corridors 
   reduces average shipment delay by an estimated X days
-- **Strategic warehouse placement** — Positioning a hub in a 
+- **Strategic warehouse placement**: Positioning a hub in a 
   high-volume region improves serviceability for international orders
-- **Demand forecasting integration** — Implementing reorder point 
+- **Demand forecasting integration**: Implementing reorder point 
   logic reduces stockout incidents in high-velocity segments
-- **Local logistics partnerships** — Collaborating with last-mile 
+- **Local logistics partnerships**: Collaborating with last-mile 
   providers improves delivery performance in underserved markets
 
 ---
 
 ## Power BI Dashboard:
 
-- **Sales Management Dashboard** — Tracks revenue, profit, orders, 
+- **Sales Management Dashboard**: Tracks revenue, profit, orders, 
   and customer activity
-- **Inventory Management Dashboard** — Monitors stock levels, 
+- **Inventory Management Dashboard**: Monitors stock levels, 
   order fulfillment rates, and distribution costs
-- **Shipping Management Dashboard** — Tracks delivery timeliness 
+- **Shipping Management Dashboard**: Tracks delivery timeliness 
   and route performance
 
-![](your-powerbi-screenshot.png)
+![ghfhdh](https://github.com/whykaysoft/Maersk_SCM_Analytics/blob/main/MAERSK%20Dashboard%201,2%20&%203.png?raw=true)
 
 
 ---
 
-## 📁 Repository Structure
+## About This Project
+
+Built as part of my transition into Supply Chain Data Analytics. 
+My background as Founder & CEO of WhykaySoft Logistics gave me 
+direct operational context for every insight in this analysis. I've managed the exact challenges this data describes.
