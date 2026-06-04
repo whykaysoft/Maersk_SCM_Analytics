@@ -1,7 +1,7 @@
 # Maersk Supply Chain Optimization
 
 > Identifying $86K in storage cost drivers and 
-> 98% late shipment risk using PostgreSQL + Power BI
+> 56% late shipment risk using PostgreSQL + Power BI
 ---
 
 ## Overview
@@ -53,8 +53,8 @@ demand stability (XYZ) to prioritize inventory management decisions.
 ## Key Insights
 
 - **Sharp decline in revenue and profit**: The most likely root cause of business downturn comes from a supply chain disruption on the supplier network such as delays in sourcing, transportation, distribution or problem with suppliers could have affected the company's ability to replenish the warehouse inventory promptly, especially for the products of XA and YA segments.
-- **Overstock and Understock**: The company often encounters overstock situation, causing excess inventory and wasting storage costs. Sometimes the company is also understocked. This shows that inventory management is not really implemented effectively yet
-- **High late shipment rate**: The company has a rather concerning late shipment rate (30 - 50%) which related to the delivery system
+- **Overstock**: The company encountered overstock situation of 31.5% more inventory than orders, causing excess inventory and wasting storage costs.
+- **High late shipment rate**: The company has a rather concerning late shipment rate 56% which related to the delivery system
 
 ---
 
@@ -77,7 +77,7 @@ Analyze both local and global markets to identify gaps and opportunities is also
 **YB, YC, ZB, ZC**:
 
 These segments do not contribute significantly to the company's revenue. They also have low or no demand. I recommend dropping these segments or reducing inventory to optimize storage cost.
-- **Overstock and Understock**:
+- **Overstock**:
 
 If it is available, demand forecasting is crucial. By analyzing historical sales data, tracking market trends, and employing predictive analytics, the company can anticipate future demand, allowing to maintain an optimal inventory level. Additionally, setting up reorder points for each product is essential. These points serve as indicators for reordering, factoring in lead time, sales velocity, and desired safety stock levels, ensuring the company replenish stock in a timely manner without risking overstocking. Speaking of safety stock, maintaining this buffer inventory is vital. It acts as a safeguard against unexpected demand fluctuations or supply delays, mitigating the chances of stockouts and the associated revenue loss while also minimizing the risk of excessive stock accumulation.
 
@@ -88,7 +88,7 @@ In order to effectively curb the issue of high late shipment rates, the company 
 
 Firstly, the optimization of the delivery system through a redesigned transportation route, such as adopting a cross-docking strategy, can significantly enhance the efficiency of shipments.
 
-Furthermore, collaboration with local logistics companien to leverage their existing resources and expertise is not a bad idea, specially with markets far away from USA and Peuter Rico.
+Furthermore, collaboration with local logistics companies to leverage their existing resources and expertise is not a bad idea, specially with markets far away from USA and Peuter Rico.
 
 Additionally, to bolster the overall delivery system and expand the company's global reach, establishing a warehouse in a strategic logistics hub like Singapore in Asia would be beneficial. This move would not only improve the delivery process but also facilitate smoother operations across various international markets.
 
